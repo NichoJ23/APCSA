@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Circle
+comment0.text=\r\n\ AP\ Compsci\ 2024-2025\r\n\ Nicholas\ Nesbitt\r\n\ Circle\ Class\r\n
+comment1.params=
+comment1.target=Circle()
+comment2.params=r
+comment2.target=Circle(double)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=double\ getRadius()
+comment5.params=
+comment5.target=double\ circumference()
+comment6.params=
+comment6.target=double\ area()
+numComments=7
