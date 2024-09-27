@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Formulas
+comment0.text=\r\n\ AP\ Compsci\ 2024-2025\r\n\ Nicholas\ Nesbitt\r\n\ \r\n
+comment1.params=a\ b\ c
+comment1.target=OrderedPair\ findQuadraticRoots(double,\ double,\ double)
+comment2.params=a\ b
+comment2.target=double\ findSlope(OrderedPair,\ OrderedPair)
+comment3.params=a\ b
+comment3.target=OrderedPair\ findMidpoint(OrderedPair,\ OrderedPair)
+comment4.params=a\ d\ k
+comment4.target=double\ findArithmeticSeriesSum(double,\ double,\ int)
+comment5.params=a\ r\ k
+comment5.target=double\ findGeometricSeriesSum(double,\ double,\ int)
+comment6.params=sides
+comment6.target=int\ rollDie(int)
+numComments=7
