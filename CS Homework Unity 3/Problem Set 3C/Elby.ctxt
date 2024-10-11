@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Elby
+comment1.params=
+comment1.target=java.lang.String\ getGreeting()
+comment1.text=\r\n\ Get\ a\ default\ greeting\r\n\r\n\ @return\ a\ greeting\r\n
+comment2.params=statement
+comment2.target=java.lang.String\ getResponse(java.lang.String)
+comment2.text=\r\n\ Gives\ a\ response\ to\ a\ user\ statement\r\n\r\n\ @param\ statement\ the\ user\ statement\r\n\ @return\ a\ response\ based\ on\ the\ rules\ given\r\n
+comment3.params=
+comment3.target=java.lang.String\ getRandomResponse()
+comment3.text=\r\n\ Pick\ a\ default\ response\ to\ use\ if\ nothing\ else\ fits.\r\n\r\n\ @return\ a\ non-committal\ string\r\n
+comment4.params=statement\ goal\ startPos
+comment4.target=int\ findKeyword(java.lang.String,\ java.lang.String,\ int)
+comment5.params=statement
+comment5.target=java.lang.String\ transformYouMeStatement(java.lang.String)
+comment5.text=\r\n\ Take\ a\ statement\ with\ "you\ <something>\ me"\ and\ transform\ it\ into\ "What\ makes\r\n\ you\ think\ that\ I\ <something>\ you?"\r\n\r\n\ @param\ statement\ the\ user\ statement,\ assumed\ to\ contain\ "you"\ followed\ by\ "me"\r\n\ @return\ the\ transformed\ statement\r\n
+comment6.params=statement
+comment6.target=java.lang.String\ transformIWantToStatement(java.lang.String)
+comment6.text=\r\n\ Take\ a\ statement\ with\ "I\ want\ to\ <something>."\ and\ transform\ it\ into\ "What\r\n\ would\ it\ mean\ to\ <something>?"\r\n\r\n\ @param\ statement\ the\ user\ statement,\ assumed\ to\ contain\ "I\ want\ to"\r\n\ @return\ the\ transformed\ statement\r\n
+comment7.params=statement
+comment7.target=java.lang.String\ transformIWantStatement(java.lang.String)
+comment7.text=\r\n\ Take\ a\ statement\ with\ "I\ want\ <something>."\ and\ transform\ it\r\n\ into\ Would\ you\ really\ be\ happy\ if\ you\ had\ <something>?\r\n\r\n\ @param\ statement\ the\ user\ statement,\ assumed\ to\ contain\ "I\ want"\r\n\ @return\ the\ transformed\ statement\r\n
+comment8.params=statement
+comment8.target=java.lang.String\ transformIMeStatement(java.lang.String)
+comment8.text=\r\n\ Take\ a\ statement\ with\ "I\ <something>\ you"\ and\ transform\ it\ into\r\n\ "Why\ do\ you\ <something>\ me?"\r\n\r\n\ @param\ statement\ the\ user\ statement,\ assumed\ to\ contain\ "I"\ followed\ by\r\n\ \tsomething\ "you"\r\n\ @return\ the\ transformed\ statement\r\n
+numComments=9
