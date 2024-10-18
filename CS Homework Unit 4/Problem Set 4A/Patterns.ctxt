@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Patterns
+comment0.text=\r\n\ AP\ Compsci\ 2024-2025\r\n\ Nicholas\ Nesbitt\r\n\ \r\n
+comment1.params=pattern
+comment1.target=void\ main(java.lang.String)
+comment2.params=
+comment2.target=void\ drawGrid()
+comment3.params=
+comment3.target=void\ drawBendyLines()
+comment4.params=
+comment4.target=void\ drawTarget()
+numComments=5
