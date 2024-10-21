@@ -4,8 +4,8 @@
  * Problem Set 2C Sep. 26th 2024
  */
 public class OrderedPair {
-    private double x;
-    private double y;
+    double x;
+    double y;
     
     OrderedPair() {
         x = y = 0;
