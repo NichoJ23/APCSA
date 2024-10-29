@@ -136,6 +136,39 @@ public class Review {
   }
   
   /**
+   * @returns the expected star rating of a review out of 5 stars
+   */
+  public static double starRating(String fileName) {
+      double sentiment = totalSentiment(fileName);
+      double stars = sentiment * 2.5 + 2.5;
+      return Math.round(stars * 1000) / 1000.0;
+  }
+  
+  public static String fakeReview(String fileName) {
+      String text = textToString(fileName);
+      text += " ";
+      for (int i = 0; i < text.length()-1; i = text.indexOf(" ", i+1)+1) {
+          int nextSpace = text.indexOf(" ", i);
+          String word = text.substring(i, nextSpace);
+          if (word.charAt(0) == '*') {
+              String mainWord = word.substring(1);
+              double sentiment = sentimentVal(removePunctuation(mainWord));
+              if (sentiment == 0) {
+                  sentiment += Math.random() - 0.5;
+              }
+              if (sentiment > 0) {
+                  text = text.substring(0, i) + randomPositiveAdj() + getPunctuation(mainWord) + text.substring(nextSpace);
+              } else {
+                  text = text.substring(0, i) + randomNegativeAdj() + getPunctuation(mainWord) + text.substring(nextSpace);
+              }
+          }
+          
+      }
+      
+      return text;
+  }
+  
+  /**
    * Returns the ending punctuation of a string, or the empty string if there is none 
    */
   public static String getPunctuation( String word )
