@@ -12,8 +12,6 @@ public class Board {
         numRows = _rows;
         numCols = _cols;
         board = new String[numRows][numCols];
-        
-        printBoard();
     }
     
     public boolean checkWin() {
