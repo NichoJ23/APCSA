@@ -8,8 +8,10 @@ public class Fraction {
     private int denominator;
     
     Fraction() {
-        numerator = 1;
-        denominator = 1;
+        setNum((int) (Math.random() * 21));
+        setDenom((int) (Math.random() * 20) + 1);
+        
+        reduce();
     }
     
     Fraction(int _numerator, int _denominator) {
@@ -102,6 +104,14 @@ public class Fraction {
         }
         
         return x;
+    }
+    
+    public boolean equals(Fraction other) {
+        return getNum() == other.getNum() && getDenom() == other.getDenom();
+    }
+    
+    static boolean equals(Fraction f1, Fraction f2) {
+        return f1.equals(f2);
     }
     
     static Fraction multiply(Fraction f1, Fraction f2) {
